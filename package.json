@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-gmp",
+  "version": "0.0.1",
+  "description": "gmp",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikhail-shvaikouski/node-js-GMP.git"
+  },
+  "author": "Mikhail Shvaikouski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikhail-shvaikouski/node-js-GMP/issues"
+  },
+  "homepage": "https://github.com/mikhail-shvaikouski/node-js-GMP#readme",
+  "dependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
