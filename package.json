@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-gmp",
+  "version": "0.0.1",
+  "description": "node js global mentoring program",
+  "main": "index.js",
+  "scripts": {
+    "task1": "nodemon eventEmitter.js",
+    "task2": "nodemon withTime.js",
+    "task3": "nodemon books.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikhail-shvaikouski/node-js-GMP.git"
+  },
+  "author": "Mikhail Shvaikouski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikhail-shvaikouski/node-js-GMP/issues"
+  },
+  "homepage": "https://github.com/mikhail-shvaikouski/node-js-GMP#readme",
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "events": "^3.3.0",
+    "node-fetch": "^2.6.7",
+    "nodemon": "^3.0.1"
+  }
+}
