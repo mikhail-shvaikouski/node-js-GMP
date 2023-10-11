@@ -1,0 +1,20 @@
+{
+  "name": "njgmp",
+  "version": "1.0.0",
+  "description": "Mikhails Shvaikouski - Node.js Global Mentoring Program",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikhail-shvaikouski/node-js-GMP.git"
+  },
+  "author": "Mikhail Shvaikouski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikhail-shvaikouski/node-js-GMP/issues"
+  },
+  "homepage": "https://github.com/mikhail-shvaikouski/node-js-GMP#readme"
+}
