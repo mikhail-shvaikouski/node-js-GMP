@@ -3,10 +3,10 @@ import { CartItemEntity, cart } from "./cart.entity";
 type ORDER_STATUS = "created" | "completed";
 
 export interface OrderEntity {
-  id: string; // uuid
+  id: string;
   userId: string;
   cartId: string;
-  items: CartItemEntity[]; // products from CartEntity
+  items: CartItemEntity[];
   payment: {
     type: string;
     address?: any;

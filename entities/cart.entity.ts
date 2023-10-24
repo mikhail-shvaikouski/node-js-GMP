@@ -1,4 +1,4 @@
-import { ProductEntity, product as bookProduct } from "./product.entity";
+import { ProductEntity, products } from "./product.entity";
 
 export interface CartItemEntity {
   product: ProductEntity;
@@ -6,14 +6,14 @@ export interface CartItemEntity {
 }
 
 export interface CartEntity {
-  id: string; // uuid
+  id: string;
   userId: string;
   isDeleted: boolean;
   items: CartItemEntity[];
 }
 
 const cartItem: CartItemEntity = {
-  product: bookProduct,
+  product: products[0],
   count: 2,
 };
 
@@ -23,3 +23,8 @@ export const cart: CartEntity = {
   isDeleted: false,
   items: [cartItem],
 };
+
+export interface CartResponce {
+  cart: CartEntity;
+  total: number;
+}
